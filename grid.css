@@ -1,0 +1,50 @@
+body{
+padding: 500px;
+}
+
+
+
+.container{
+    display: grid;
+    height: 80vh;
+    width: 30vw;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap:20px;
+}
+
+.mouse{
+    background-color: yellowgreen;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panda{
+    background-color: pink;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frog{
+    background-color: violet;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: -2;
+    grid-column-end: -2;
+}
+
+.penquin{
+    background-color: paleturquoise;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
